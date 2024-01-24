@@ -2,3 +2,4 @@
 	path = yarn
 	url = https://github.com/yarnpkg/berry
 	shallow = true
+  ignore = all
