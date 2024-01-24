@@ -15620,6 +15620,15 @@ pem@dexus/pem:
   languageName: node
   linkType: hard
 
+"prettier@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "prettier@npm:3.2.4"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 88dfeb78ac6096522c9a5b81f1413d875f568420d9bb6a5e5103527912519b993f2bcdcac311fcff5718d5869671d44e4f85827d3626f3a6ce32b9abc65d88e0
+  languageName: node
+  linkType: hard
+
 "pretty-error@npm:^4.0.0":
   version: 4.0.0
   resolution: "pretty-error@npm:4.0.0"
@@ -20088,6 +20097,7 @@ pem@dexus/pem:
   resolution: "yarn-completions@workspace:."
   dependencies:
     "@types/node": "npm:^20.11.5"
+    prettier: "npm:^3.2.4"
     tsx: "npm:^4.7.0"
   languageName: unknown
   linkType: soft

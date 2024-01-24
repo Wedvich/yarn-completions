@@ -5,5 +5,5 @@ install:
 	yarn install
 
 generate:
-	yarn exec tsx ./main.ts
+	yarn exec tsx ./src/main.ts
 	cp ${shell pwd}/_yarn ${HOME}/.zfunc

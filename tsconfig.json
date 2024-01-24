@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "module": "nodenext"
+    "allowImportingTsExtensions": true,
+    "module": "nodenext",
+    "noEmit": true,
   },
-  "include": ["main.ts"]
+  "include": ["src"],
 }
